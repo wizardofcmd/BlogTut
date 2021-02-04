@@ -13,3 +13,4 @@ def register(request):
             return redirect('blog-home')
     form = UserCreationForm()
     return render(request, 'users/register.html', {'form': form})
+
